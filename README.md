@@ -7,5 +7,5 @@ Demo role for ansible hardening basics
    New-NetIPAddress -IPAddress 192.168.66.1 -PrefixLength 24 -InterfaceAlias "vEthernet (xmpnet)"
    New-NetNat -Name xmpNAT -InternalIPInterfaceAddressPrefix 192.168.66.0/24
    </pre>
-   It is expected that your VMs should reside in the 192.168.66.0/24 network and sporting Fedora linux
+   It is expected that your VMs are connecting to the the 192.168.66.0/24 network and sporting Fedora linux
 2. This role is intended to run against the hosts (virtual machines) of that network
