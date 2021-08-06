@@ -95,7 +95,7 @@ UsePAM yes
 #ChrootDirectory none
 #VersionAddendum none
 # no default banner path
-#Banner none
+Banner /etc/issue.net
 # override default of no subsystems
 Subsystem sftp /usr/libexec/openssh/sftp-server
 # Example of overriding settings on a per-user basis
