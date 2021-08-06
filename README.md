@@ -8,4 +8,5 @@ Demo role for ansible hardening basics
    New-NetNat -Name xmpNAT -InternalIPInterfaceAddressPrefix 192.168.66.0/24
    </pre>
    It is expected that your VMs are connecting to the 192.168.66.0/24 network and sporting Fedora linux
-2. This role is intended to run against the hosts (virtual machines) of that network
+2. This role is intended to run against the hosts (virtual machines) of that network and the IP such a
+   host is being added to the #inventory.ini# file
