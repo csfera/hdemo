@@ -5,3 +5,4 @@ Demo role for ansible hardening basics
    New-VMSwitch -SwitchName "xmpnet" -SwitchType Internal
    New-NetIPAddress -IPAddress 192.168.66.1 -PrefixLength 24 -InterfaceAlias "vEthernet (xmpnet)"
    New-NetNat -Name xmpNAT -InternalIPInterfaceAddressPrefix 192.168.66.0/24
+2. This role is intended to run against the hosts (virtual machines) of that network
